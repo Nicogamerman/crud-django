@@ -1,0 +1,78 @@
+/* Estilos para la página list_tasks.html */
+
+/* Estilos para el encabezado */
+header {
+    background-color: #b79a9a;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Estilos para la lista de tareas */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li {
+    margin-bottom: 10px;
+}
+
+.task-list li span {
+    font-weight: bold;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Estilos para el formulario de agregar tarea */
+.add-task-form {
+    margin-top: 20px;
+}
+
+.add-task-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-task-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-task-form button:hover {
+    background-color: #555;
+}
+
+/* Estilos para los botones de las tareas */
+.task-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-list li button:hover {
+    background-color: #555;
+}
+
+/* Estilos para el fondo gris */
+body {
+    background-color: #ccc;
+}
